@@ -16,7 +16,7 @@ public class UserController {
 
     @RequestMapping("home")
     public String Home() {
-        user.setUserId(1);
+        user.setUserId(2);
         user.setUsserName("我就是我");
         return user.toString();
     }
